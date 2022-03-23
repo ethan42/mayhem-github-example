@@ -2,9 +2,6 @@
 # Mayhemfile: configuration file for testing your target with Mayhem
 # Format: YAML 1.1
 
-# Mayhemfile version specifier
-version: '1.16'
-
 # Namespaced project name that the target belongs to
 project: myapp
 
@@ -12,7 +9,7 @@ project: myapp
 target: myapp-latest
 
 # Base image to run the binary in.
-baseimage: myapp
+image: myapp
 
 # List of commands used to test the target
 cmds:
